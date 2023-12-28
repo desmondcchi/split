@@ -9,21 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            ZStack {
+                Color.black
+                    .ignoresSafeArea()
+                
+                VStack {
+                    Text("Split")
+                        .font(.largeTitle)
+                        .padding([.bottom], 200)
+                        .foregroundColor(Color.white)
+
+                    NavigationLink(destination: NewBillView()) {
+                        Text("New Bill")
+                    }
+                    .padding([.bottom], 50)
+
+                    NavigationLink(destination: PastBillsView()) {
+                        Text("Past Bills")
+                    }
+
+                    Spacer()
+                }
+                .border(Color.red) // VStack
+            }
         }
-        .padding()
-        
-        HStack {
-            Text("Testing")
-            Text("Testing #2")
-        }
-        .padding()
-        .bold()
-        .italic()
+        .border(Color.red) // NavigationView
     }
 }
 

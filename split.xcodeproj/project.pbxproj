@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1625B2E2B3D4A3200A7AD81 /* NewBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1625B2D2B3D4A3200A7AD81 /* NewBillView.swift */; };
+		E1625B302B3D4B9600A7AD81 /* PastBillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1625B2F2B3D4B9600A7AD81 /* PastBillsView.swift */; };
 		E17879032B3B6C1300B95FD8 /* splitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17879022B3B6C1300B95FD8 /* splitApp.swift */; };
 		E17879052B3B6C1300B95FD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17879042B3B6C1300B95FD8 /* ContentView.swift */; };
 		E17879072B3B6C1500B95FD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17879062B3B6C1500B95FD8 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1625B2D2B3D4A3200A7AD81 /* NewBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBillView.swift; sourceTree = "<group>"; };
+		E1625B2F2B3D4B9600A7AD81 /* PastBillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastBillsView.swift; sourceTree = "<group>"; };
 		E17878FF2B3B6C1300B95FD8 /* split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = split.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17879022B3B6C1300B95FD8 /* splitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splitApp.swift; sourceTree = "<group>"; };
 		E17879042B3B6C1300B95FD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				E17879022B3B6C1300B95FD8 /* splitApp.swift */,
 				E17879042B3B6C1300B95FD8 /* ContentView.swift */,
+				E1625B2F2B3D4B9600A7AD81 /* PastBillsView.swift */,
+				E1625B2D2B3D4A3200A7AD81 /* NewBillView.swift */,
 				E17879062B3B6C1500B95FD8 /* Assets.xcassets */,
 				E17879082B3B6C1500B95FD8 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				E17879052B3B6C1300B95FD8 /* ContentView.swift in Sources */,
 				E17879032B3B6C1300B95FD8 /* splitApp.swift in Sources */,
+				E1625B2E2B3D4A3200A7AD81 /* NewBillView.swift in Sources */,
+				E1625B302B3D4B9600A7AD81 /* PastBillsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
