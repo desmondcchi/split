@@ -1,6 +1,6 @@
 //
 //  MainMenuButtonView.swift
-//  split
+//  Split
 //
 //  Created by Desmond Chi on 12/30/23.
 //
@@ -20,7 +20,8 @@ struct MainMenuButtonView: View {
             
             Text(text)
                 .foregroundColor(text_color)
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .fontWeight(Font.Weight/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .font(Font.system(size: 20))
         }
     }
 }

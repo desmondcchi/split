@@ -1,6 +1,6 @@
 //
-//  splitApp.swift
-//  split
+//  SplitApp.swift
+//  Split
 //
 //  Created by Desmond Chi on 12/26/23.
 //
@@ -8,9 +8,9 @@
 import SwiftUI
 
 @main
-struct splitApp: App {
+struct SplitApp: App {
     var body: some Scene {
-        WindowGroup {
+        WindowGroup("Split") {
             MainMenuView()
         }
     }

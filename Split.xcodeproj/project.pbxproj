@@ -7,26 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1625B2E2B3D4A3200A7AD81 /* NewBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1625B2D2B3D4A3200A7AD81 /* NewBillView.swift */; };
+		E1187D472B599A62003E1CE3 /* PastBillEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1187D462B599A62003E1CE3 /* PastBillEntry.swift */; };
+		E1187D492B599CA6003E1CE3 /* PastBillEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1187D482B599CA6003E1CE3 /* PastBillEntryView.swift */; };
+		E1187D4B2B5A4F24003E1CE3 /* BillItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1187D4A2B5A4F24003E1CE3 /* BillItem.swift */; };
+		E1625B2E2B3D4A3200A7AD81 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1625B2D2B3D4A3200A7AD81 /* CameraView.swift */; };
 		E1625B302B3D4B9600A7AD81 /* PastBillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1625B2F2B3D4B9600A7AD81 /* PastBillsView.swift */; };
-		E17879032B3B6C1300B95FD8 /* splitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17879022B3B6C1300B95FD8 /* splitApp.swift */; };
+		E17879032B3B6C1300B95FD8 /* SplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17879022B3B6C1300B95FD8 /* SplitApp.swift */; };
 		E17879052B3B6C1300B95FD8 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17879042B3B6C1300B95FD8 /* MainMenuView.swift */; };
 		E17879072B3B6C1500B95FD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17879062B3B6C1500B95FD8 /* Assets.xcassets */; };
 		E178790A2B3B6C1500B95FD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17879092B3B6C1500B95FD8 /* Preview Assets.xcassets */; };
+		E18D00AD2B4691B800B1B347 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18D00AC2B4691B800B1B347 /* Camera.swift */; };
+		E18D00AF2B469C4A00B1B347 /* camera_temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18D00AE2B469C4A00B1B347 /* camera_temp.swift */; };
 		E1D0223E2B4141CA003E4199 /* MainMenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D0223D2B4141CA003E4199 /* MainMenuButtonView.swift */; };
-		E1D022402B4155BF003E4199 /* BillItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D0223F2B4155BF003E4199 /* BillItemsView.swift */; };
+		E1D022402B4155BF003E4199 /* NewBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D0223F2B4155BF003E4199 /* NewBillView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E1625B2D2B3D4A3200A7AD81 /* NewBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBillView.swift; sourceTree = "<group>"; };
+		E1187D462B599A62003E1CE3 /* PastBillEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastBillEntry.swift; sourceTree = "<group>"; };
+		E1187D482B599CA6003E1CE3 /* PastBillEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastBillEntryView.swift; sourceTree = "<group>"; };
+		E1187D4A2B5A4F24003E1CE3 /* BillItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillItem.swift; sourceTree = "<group>"; };
+		E1625B2D2B3D4A3200A7AD81 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		E1625B2F2B3D4B9600A7AD81 /* PastBillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastBillsView.swift; sourceTree = "<group>"; };
-		E17878FF2B3B6C1300B95FD8 /* split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = split.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E17879022B3B6C1300B95FD8 /* splitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splitApp.swift; sourceTree = "<group>"; };
+		E17878FF2B3B6C1300B95FD8 /* Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Split.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17879022B3B6C1300B95FD8 /* SplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitApp.swift; sourceTree = "<group>"; };
 		E17879042B3B6C1300B95FD8 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		E17879062B3B6C1500B95FD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E17879092B3B6C1500B95FD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E18D00AC2B4691B800B1B347 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		E18D00AE2B469C4A00B1B347 /* camera_temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camera_temp.swift; sourceTree = "<group>"; };
 		E1D0223D2B4141CA003E4199 /* MainMenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuButtonView.swift; sourceTree = "<group>"; };
-		E1D0223F2B4155BF003E4199 /* BillItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillItemsView.swift; sourceTree = "<group>"; };
+		E1D0223F2B4155BF003E4199 /* NewBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBillView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +53,7 @@
 		E17878F62B3B6C1300B95FD8 = {
 			isa = PBXGroup;
 			children = (
-				E17879012B3B6C1300B95FD8 /* split */,
+				E17879012B3B6C1300B95FD8 /* Split */,
 				E17879002B3B6C1300B95FD8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,21 +61,21 @@
 		E17879002B3B6C1300B95FD8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E17878FF2B3B6C1300B95FD8 /* split.app */,
+				E17878FF2B3B6C1300B95FD8 /* Split.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E17879012B3B6C1300B95FD8 /* split */ = {
+		E17879012B3B6C1300B95FD8 /* Split */ = {
 			isa = PBXGroup;
 			children = (
 				E1D0223A2B413AF5003E4199 /* Models */,
 				E1D022392B413AEC003E4199 /* Views */,
-				E17879022B3B6C1300B95FD8 /* splitApp.swift */,
+				E17879022B3B6C1300B95FD8 /* SplitApp.swift */,
 				E17879062B3B6C1500B95FD8 /* Assets.xcassets */,
 				E17879082B3B6C1500B95FD8 /* Preview Content */,
 			);
-			path = split;
+			path = Split;
 			sourceTree = "<group>";
 		};
 		E17879082B3B6C1500B95FD8 /* Preview Content */ = {
@@ -80,10 +90,12 @@
 			isa = PBXGroup;
 			children = (
 				E17879042B3B6C1300B95FD8 /* MainMenuView.swift */,
-				E1D0223F2B4155BF003E4199 /* BillItemsView.swift */,
+				E1D0223F2B4155BF003E4199 /* NewBillView.swift */,
 				E1D0223D2B4141CA003E4199 /* MainMenuButtonView.swift */,
 				E1625B2F2B3D4B9600A7AD81 /* PastBillsView.swift */,
-				E1625B2D2B3D4A3200A7AD81 /* NewBillView.swift */,
+				E1187D482B599CA6003E1CE3 /* PastBillEntryView.swift */,
+				E1625B2D2B3D4A3200A7AD81 /* CameraView.swift */,
+				E18D00AE2B469C4A00B1B347 /* camera_temp.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -91,6 +103,9 @@
 		E1D0223A2B413AF5003E4199 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E18D00AC2B4691B800B1B347 /* Camera.swift */,
+				E1187D462B599A62003E1CE3 /* PastBillEntry.swift */,
+				E1187D4A2B5A4F24003E1CE3 /* BillItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -98,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E17878FE2B3B6C1300B95FD8 /* split */ = {
+		E17878FE2B3B6C1300B95FD8 /* Split */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E178790D2B3B6C1500B95FD8 /* Build configuration list for PBXNativeTarget "split" */;
+			buildConfigurationList = E178790D2B3B6C1500B95FD8 /* Build configuration list for PBXNativeTarget "Split" */;
 			buildPhases = (
 				E17878FB2B3B6C1300B95FD8 /* Sources */,
 				E17878FC2B3B6C1300B95FD8 /* Frameworks */,
@@ -110,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = split;
+			name = Split;
 			productName = split;
-			productReference = E17878FF2B3B6C1300B95FD8 /* split.app */;
+			productReference = E17878FF2B3B6C1300B95FD8 /* Split.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E17878FA2B3B6C1300B95FD8 /* Build configuration list for PBXProject "split" */;
+			buildConfigurationList = E17878FA2B3B6C1300B95FD8 /* Build configuration list for PBXProject "Split" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E17878FE2B3B6C1300B95FD8 /* split */,
+				E17878FE2B3B6C1300B95FD8 /* Split */,
 			);
 		};
 /* End PBXProject section */
@@ -165,12 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1D022402B4155BF003E4199 /* BillItemsView.swift in Sources */,
+				E1187D472B599A62003E1CE3 /* PastBillEntry.swift in Sources */,
+				E1D022402B4155BF003E4199 /* NewBillView.swift in Sources */,
+				E1187D4B2B5A4F24003E1CE3 /* BillItem.swift in Sources */,
+				E1187D492B599CA6003E1CE3 /* PastBillEntryView.swift in Sources */,
 				E17879052B3B6C1300B95FD8 /* MainMenuView.swift in Sources */,
-				E17879032B3B6C1300B95FD8 /* splitApp.swift in Sources */,
+				E17879032B3B6C1300B95FD8 /* SplitApp.swift in Sources */,
 				E1D0223E2B4141CA003E4199 /* MainMenuButtonView.swift in Sources */,
-				E1625B2E2B3D4A3200A7AD81 /* NewBillView.swift in Sources */,
+				E1625B2E2B3D4A3200A7AD81 /* CameraView.swift in Sources */,
+				E18D00AD2B4691B800B1B347 /* Camera.swift in Sources */,
 				E1625B302B3D4B9600A7AD81 /* PastBillsView.swift in Sources */,
+				E18D00AF2B469C4A00B1B347 /* camera_temp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +327,7 @@
 				DEVELOPMENT_TEAM = FRY35B4Q9M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -336,6 +357,7 @@
 				DEVELOPMENT_TEAM = FRY35B4Q9M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -357,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E17878FA2B3B6C1300B95FD8 /* Build configuration list for PBXProject "split" */ = {
+		E17878FA2B3B6C1300B95FD8 /* Build configuration list for PBXProject "Split" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E178790B2B3B6C1500B95FD8 /* Debug */,
@@ -366,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E178790D2B3B6C1500B95FD8 /* Build configuration list for PBXNativeTarget "split" */ = {
+		E178790D2B3B6C1500B95FD8 /* Build configuration list for PBXNativeTarget "Split" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E178790E2B3B6C1500B95FD8 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  split
+//  Split
 //
 //  Created by Desmond Chi on 12/26/23.
 //
@@ -20,13 +20,13 @@ struct MainMenuView: View {
                     .offset(y: -400)
                 
                 VStack {
-                    Text("Split")
-                        .font(.system(size: 50, weight: .bold))
-                        .padding(.bottom, 200)
-                        .padding(.top, 20)
+                    Text("$plit")
+                        .font(.system(size: 70, weight: Font.Weight.bold))
+                        .padding(Edge.Set.bottom, 200)
+                        .padding(Edge.Set.top, 20)
                         .foregroundColor(Color.white)
 
-                    NavigationLink(destination: NewBillView()) {
+                    NavigationLink(destination: CameraView()) {
                         MainMenuButtonView(text: "New Bill", text_color: Color.white, background_color: Color.green)
                     }
                     .padding(.bottom, 50)
