@@ -9,9 +9,16 @@ import SwiftUI
 
 struct PastBillsView: View {
     var body: some View {
-        ZStack {
-            VStack {
-            }
+        ScrollView {
+            NavigationLink(destination: PastBillView(), label: {
+                PastBillEntryView(restaurant_name: "Pasta Palace", total_price: 19.95, date: Date.now)
+            })
+            NavigationLink(destination: PastBillView(), label: {
+                PastBillEntryView(restaurant_name: "Pasta Palace", total_price: 19.95, date: Date.now)
+            })
+            NavigationLink(destination: PastBillView(), label: {
+                PastBillEntryView(restaurant_name: "Pasta Palace", total_price: 19.95, date: Date.now)
+            })
         }
         .navigationTitle("Past Bills")
     }
