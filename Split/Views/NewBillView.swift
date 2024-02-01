@@ -50,6 +50,19 @@ struct NewBillView: View {
             })
         }
         .navigationTitle("New Bill")
+        .toolbar {
+            NavigationLink(destination: FinalBillView(), label: {
+                ZStack {
+                    RoundedRectangle(cornerRadius: 10)
+                        .frame(width: 75, height: 30)
+                        .foregroundColor(Color.green)
+                    
+                    Text("Done")
+                        .foregroundColor(Color.white)
+                        .font(Font.system(size: 15, weight: Font.Weight.bold))
+                }
+            })
+        }
     }
 }
 

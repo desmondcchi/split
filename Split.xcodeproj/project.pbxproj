@@ -25,6 +25,7 @@
 		E18D00AF2B469C4A00B1B347 /* camera_temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18D00AE2B469C4A00B1B347 /* camera_temp.swift */; };
 		E1D0223E2B4141CA003E4199 /* MainMenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D0223D2B4141CA003E4199 /* MainMenuButtonView.swift */; };
 		E1D022402B4155BF003E4199 /* NewBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D0223F2B4155BF003E4199 /* NewBillView.swift */; };
+		E1E47B422B6B82780045E4E1 /* FinalBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E47B412B6B82780045E4E1 /* FinalBillView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		E18D00AE2B469C4A00B1B347 /* camera_temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camera_temp.swift; sourceTree = "<group>"; };
 		E1D0223D2B4141CA003E4199 /* MainMenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuButtonView.swift; sourceTree = "<group>"; };
 		E1D0223F2B4155BF003E4199 /* NewBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBillView.swift; sourceTree = "<group>"; };
+		E1E47B412B6B82780045E4E1 /* FinalBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalBillView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				E17879042B3B6C1300B95FD8 /* MainMenuView.swift */,
 				E1D0223F2B4155BF003E4199 /* NewBillView.swift */,
+				E1E47B412B6B82780045E4E1 /* FinalBillView.swift */,
 				E1D0223D2B4141CA003E4199 /* MainMenuButtonView.swift */,
 				E1625B2F2B3D4B9600A7AD81 /* PastBillsView.swift */,
 				E1187D552B5A7B5D003E1CE3 /* AddFoodItemPopoverView.swift */,
@@ -208,6 +211,7 @@
 				E1187D472B599A62003E1CE3 /* PastBillEntry.swift in Sources */,
 				E1D022402B4155BF003E4199 /* NewBillView.swift in Sources */,
 				E1187D4B2B5A4F24003E1CE3 /* BillItem.swift in Sources */,
+				E1E47B422B6B82780045E4E1 /* FinalBillView.swift in Sources */,
 				E1187D4D2B5A710C003E1CE3 /* PastBillView.swift in Sources */,
 				E1187D492B599CA6003E1CE3 /* PastBillEntryView.swift in Sources */,
 				E17879052B3B6C1300B95FD8 /* MainMenuView.swift in Sources */,
